@@ -35,6 +35,28 @@
   <div class="rectangle4"></div>
   <button id="start-tour">Start Tour</button>
 
-  <script src="script.js"></script>
+</section>
+<section id="dynamic-content">
+  <h2>Section 5: Dynamic Content</h2>
+  <button id="load-content">Load Content</button>
+  <div id="dynamic-section">
+    <!-- Content will be loaded here -->
+  </div>
+</section>
+<div id="feedback-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Feedback</h2>
+    <form id="feedback-form">
+      <label for="feedback">Your feedback:</label>
+      <textarea id="feedback" name="feedback"></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/shepherd.js@8.0.0/dist/js/shepherd.js"></script>
+<script src="script.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
