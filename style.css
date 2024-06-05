@@ -1,0 +1,872 @@
+/* Rectangle 1 */
+.rectangle1 {
+    position: absolute;
+    width: 100%;
+    height: 832px;
+    left: 0px;
+    top: 0px;
+    background: #034048;
+  }
+  
+  /* Description */
+  .description {
+    position: absolute;
+    width: 544px;
+    height: 34px;
+    left: 204px;
+    top: 506px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  
+  /* Welcome Message */
+  .welcome-message {
+    position: absolute;
+    width: 122px;
+    height: 19px;
+    left: 204px;
+    top: 267px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+  
+  /* Image After Text */
+  .image-after-text {
+    position: absolute;
+    width: 20px;
+    height: 28px;
+    left: 196px;
+    top: 263px;
+    background: url('.png');
+  }
+  
+  /* Home */
+  .nav {
+    position: absolute;
+    top: 36px;
+    left: 874px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.nav-item1.home {
+    color: #4ED139;
+    border: 1px solid #4ED139;
+}
+  
+  /* Name */
+  .name {
+    position: absolute;
+    width: 410px;
+    height: 156px;
+    left: 204px;
+    top: 286px;
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 78px;
+    color: #FFFFFF;
+  }
+  
+  /* Profession */
+  .profession {
+    position: absolute;
+    width: 206px;
+    height: 17px;
+    left: 204px;
+    top: 460px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4ED139;
+    border: 1px solid #4ED139;
+  }
+  
+  /* Ellipse 2 */
+  /* Ellipse 2 */
+  .ellipse2 {
+    position: absolute;
+    width: 340px;
+    height: 344px;
+    left: 886px;
+    top: 244px;
+    background: url(https://img.freepik.com/premium-vector/girl-is-working-laptop-online-education-work-home-vector-character-flat-style_499739-401.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 50%; /* If you want to make it a perfect ellipse or circle */
+  }
+  
+  
+  /* Rectangle 2 */
+  .rectangle2 {
+    position: absolute;
+    width: 62px;
+    height: 50px;
+    left: 334px;
+    top: 709px;
+    background: rgba(207, 159, 35, 0.63);
+  }
+  
+  /* Rectangle 3 */
+  .rectangle3 {
+    position: absolute;
+    width: 58px;
+    height: 60px;
+    left: 1134px;
+    top: 639px;
+    background: rgba(134, 37, 180, 0.6);
+  }
+  
+  /* Rectangle 4 */
+  .rectangle4 {
+    position: absolute;
+    width: 33px;
+    height: 29px;
+    left: 563px;
+    top: 120px;
+    background: rgba(255, 255, 255, 0.67);
+  }
+  #start-tour {
+    position: absolute;
+    top: 580px;  /* Adjust as needed */
+    left: 250px;  /* Adjust as needed */
+    padding: 10px 20px;
+    background-color: #4ED139;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;  /* Ensure the button is on top of other elements */
+}
+
+#start-tour:hover {
+    background-color: #3CA12A;
+}
+  body {
+    margin: 0;
+    font-family: 'Abhaya Libre ExtraBold', sans-serif;
+    position: relative;
+}
+
+.rectangle24 {
+    position: absolute;
+    width: 100%;
+    height: 832px;
+    left: 0;
+    top: 0;
+    background: #034048;
+}
+
+.rectangle5 {
+    position: absolute;
+    width: 100%;
+    height: 679px;
+    left: 0;
+    top: 76px;
+    background: #479A95;
+}
+
+.skills-title, .about-title, .intro-title, .intro-text {
+    position: absolute;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+
+.skills-title {
+    width: 173px;
+    height: 47px;
+    left: 878px;
+    top: 181px;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFAB09;
+}
+
+.about-title {
+    width: 180px;
+    height: 47px;
+    left: 268px;
+    top: 181px;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FD8B06;
+}
+
+.intro-title {
+    width: 468px;
+    height: 38px;
+    left: 157px;
+    top: 248px;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.intro-text {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.intro-text {
+    width: 450px;
+    height: 28px;
+    left: 157px;
+    top: 303px;
+}
+
+.intro-text.subtext {
+    left: 157px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.intro-text:nth-child(2) {
+    width: 412px;
+    top: 335px;
+}
+
+.intro-text:nth-child(3) {
+    width: 324px;
+    top: 360;
+}
+
+.intro-text:nth-child(4) {
+    width: 252px;
+    top: 385px;
+}
+
+nav {
+    position: absolute;
+    left: 856px;
+    top: 29px;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link.about {
+    color: #4ED139;
+    border: 1px solid #4ED139;
+    padding: 0 5px;
+}
+
+.skill-container {
+    position: absolute;
+    left: 722px;
+    top: 237px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.skill-name {
+    width: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.skill-bar {
+    position: relative;
+    width: 473px;
+    height: 16px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.skill-bar-fill {
+    position: absolute;
+    height: 100%;
+    background: #302F2F;
+    border-radius: 20px;
+}
+
+.skill-bar-fill.html {
+    width: 90%;
+}
+
+.skill-bar-fill.css {
+    width: 90%;
+}
+
+.skill-bar-fill.js {
+    width: 50%;
+}
+
+.skill-bar-fill.ml {
+    width: 90%;
+}
+
+.skill-bar-fill.cs {
+    width: 40%;
+}
+
+.skill-bar-fill.net {
+    width: 60%;
+}
+
+.skill-bar-fill.figma {
+    width: 90%;
+}
+
+.skill-bar-fill.java {
+    width: 60%;
+}
+
+.skill-bar-fill.sql {
+    width: 50%;
+}
+
+.skill-percent {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.contact-info {
+    position: absolute;
+    left: 157px;
+    top: 447px;
+    color: #FFFFFF;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+  /*eduaction page from here*/
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+.rectangle-2o5 {
+    position: absolute;
+    width: 100%;
+    height: 832px;
+    left: 0px;
+    top: 0px;
+    background: #034048;
+}
+
+.my-education {
+    position: absolute;
+    width: 526px;
+    height: 76px;
+    left: 437px;
+    top: 145px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.nav {
+    position: absolute;
+    top: 36px;
+    left: 874px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.nav-item.education {
+    color: #4ED139;
+    border: 1px solid #4ED139;
+}
+
+.rectangle-31 {
+    position: absolute;
+    width: 100%;
+    height: 317px;
+    left: 0px;
+    top: 269px;
+    background: linear-gradient(180deg, #034048 0%, #046471 39.29%, #138493 49.47%, #045A65 78.09%, #034048 97%);
+}
+.new-rec{
+    position: absolute;
+    left: 74px;
+    display: flex;
+    gap: 20px;
+}
+.rectangle-26,
+.rectangle-29,
+.rectangle-30 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 354px;
+    height: 232px;
+    background: #034048;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.rectangle-26 {
+    left: 74px;
+    top: 312px;
+}
+
+.rectangle-29 {
+    left: 851px;
+    top: 312px;
+}
+
+.rectangle-30 {
+    left: 463px;
+    top: 312px;
+}
+
+.education-title {
+    position: absolute;
+    width: 305px;
+    height: 72px;
+    left: 30px;
+    top: 32px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.institution {
+    position: absolute;
+    width: 308px;
+    height: 24px;
+    left: 30px;
+    top: 112px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.score {
+    position: absolute;
+    width: 118px;
+    height: 24px;
+    left: 30px;
+    top: 142px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.board {
+    position: absolute;
+    width: 276px;
+    height: 24px;
+    left: 30px;
+    top: 172px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.institution1 {
+    position: absolute;
+    width: 308px;
+    height: 24px;
+    left: 30px;
+    top: 62px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.score1 {
+    position: absolute;
+    width: 118px;
+    height: 24px;
+    left: 30px;
+    top: 92px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.board1 {
+    position: absolute;
+    width: 276px;
+    height: 24px;
+    left: 30px;
+    top: 117px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.ellipse-4 {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 256px;
+  top: 114px;
+  background: url(https://cdn1.vectorstock.com/i/1000x1000/73/30/graduation-hat-on-a-open-book-for-logo-design-vector-23797330.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.line {
+    position: absolute;
+    width: 1280.01px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    
+}
+
+.line-1 {
+    left: 0px;
+    top: 269px;
+    width: 100%;
+}
+
+.line-2 {
+    left: 0px;
+    top: 586px;
+    width: 100%;
+}
+
+
+/* Training and Certification */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.rectangle-32 {
+    position: absolute;
+    width: 100%;
+    height: 832px;
+    left: 0;
+    top: 0;
+    background: #034048;
+}
+
+.rectangle-25 {
+    position: absolute;
+    width: 100%;
+    height: 679px;
+    left: 0;
+    top: 76px;
+    background: #479A95;
+}
+
+.nav {
+    position: absolute;
+    top: 36px;
+    left: 874px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.nav-item2.training {
+    color: #4ED139;
+    border: 1px solid #4ED139;
+}
+.main-head {
+    position: absolute;
+    width: 1424px;
+    height: 76px;
+    left:110px;
+    top: 167px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 76px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.main-heading, .extra-curricular {
+    display: inline-block; /* This will make both headings appear next to each other */
+}
+
+.main-heading {
+    margin-right: 200px; /* Optional: Add space between headings */
+}
+
+.rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 494px;
+    height: 354px;
+    background: #034048;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.rectangle .text-main {
+    position: absolute;
+    width: 357px;
+    height: auto;
+    top: 50px;
+    left: 59px; /* Adjust this value to center the text vertically within the rectangle */
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* Contact-me page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+/* Rectangle 44 */
+.rectangle-44 {
+    position: absolute;
+    width: 100%;
+    height: 832px;
+    left: 0px;
+    top: 0px;
+    background: #034048;
+}
+
+/* Rectangle 46 */
+.rectangle-46 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1200px;
+    height: 669px;
+    left: 111px;
+    top: 81px;
+    background: #46A4A2;
+    border: 2px solid #FBEBCD;
+}
+
+/* Rectangle 45 */
+.rectangle-45 {
+    position: absolute;
+    width: 534px;
+    height: 590px;
+    left: 197px;
+    top: 146px;
+    background: url(https://cdn.dribbble.com/users/200045/screenshots/15408893/media/79dadb74623abbce2153aae4dac21fe2.jpg?resize=1600x1200&vertical=center);
+    background-size: cover;
+    background-position: center; /* Center the image and display part from the left */
+    filter: tint(1.15) contrast(1.05);
+    mix-blend-mode: multiply;
+}
+
+.nav-item3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.nav-item3.contact-me {
+    color: #4ED139;
+    border: 1px solid #4ED139;
+}
+.sarcastic-text {
+    width: 457px;
+    height: 171px;
+    position: absolute;
+    left: 721px;
+    top: 200px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.reach-out {
+    width: 259px;
+    height: 57px;
+    position: absolute;
+    left: 721px;
+    top: 226px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    color: #FEDE36;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-nor {
+    width: 437px;
+    height: 171px;
+    position: absolute;
+    left: 721px;
+    top: 285px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.label-name,
+.label-email,
+.label-description {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.label-name {
+    width: 56px;
+    height: 24px;
+    left: 721px;
+    top: 406px;
+}
+
+.label-email {
+    width: 51px;
+    height: 24px;
+    left: 721px;
+    top: 464px;
+}
+
+.label-description {
+    width: 290px;
+    height: 24px;
+    left: 721px;
+    top: 525px;
+}
+
+/* Contact Form */
+.contact-form {
+  position: absolute;
+    left: 721px;
+    width: 416px;
+    top: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+
+.input-name {
+    position: absolute;
+    top: 24px;
+    width: 392px;
+    height: 37px;
+    margin-top: 52px;
+}
+
+.input-email {
+    position: absolute;
+    top: 24px;
+    width: 392px;
+    height: 27px;
+    margin-top: 52px;
+}
+
+.input-description {
+    position: absolute;
+    top: 24px;
+    width: 392px;
+    height: 300px; /* Increased height */
+    margin-top: 80px;
+}
+.submit-button {
+    position: absolute;
+    top: 180px;
+    left:85px;
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    background-color: #034048;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45c12b;
+}
