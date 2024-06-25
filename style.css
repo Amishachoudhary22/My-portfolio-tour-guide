@@ -56,7 +56,9 @@
     display: flex;
     gap: 20px;
 }
-
+.nav a {
+    text-decoration: none; /* Remove underline from links */
+}
 .nav-item1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -869,4 +871,432 @@ body {
 
 .submit-button:hover {
     background-color: #45c12b;
+}
+
+/* portfolio */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background-color: #034048;
+}
+
+.rectangle-32 {
+    position: absolute;
+    width: 1280px;
+    height: 832px;
+    left: 0px;
+    top: 0px;
+    background: #034048;
+}
+
+.rectangle-25 {
+    position: absolute;
+    width: 100%;
+    height: 535px;
+    left: 0px;
+    top: 148px;
+    background: #2E918E;
+    opacity: 0.7;
+}
+.nav-item4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.nav-item4.portfolio {
+    color: #4ED139;
+    border: 1px solid #4ED139;
+}
+
+.rectangle-50, .rectangle-51, .rectangle-52 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 387px;
+    height: 360px;
+    border: 3px solid #FBEBCD;
+    border-radius: 20px;
+}
+
+.rectangle-50 {
+    left: 104px;
+    top: 288px;
+    background: url(https://nordicapis.com/wp-content/uploads/10-Powerful-AI-ML-APIs.png) no-repeat center center;
+    background-size: cover;
+}
+
+.rectangle-51 {
+    left: 930px;
+    top: 288px;
+    background: url(https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.rectangle-52 {
+    left: 517px;
+    top: 288px;
+    background: url(https://qph.cf2.quoracdn.net/main-qimg-0bada9b953bd577255cea4cbe4591b75-lq) no-repeat center center;
+    background-size: cover;
+}
+
+.section-title {
+    position: absolute;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFF8EA;
+}
+
+.ai-ml-projects {
+    width: 237px;
+    height: 94px;
+    left: 180px;
+    top: 190px;
+}
+
+.web-dev-projects {
+    width: 436px;
+    height: 94px;
+    left: 490px;
+    top: 190px;
+}
+
+.cyber-projects {
+    width: 449px;
+    height: 94px;
+    left: 897px;
+    top: 190px;
+}
+
+.line-3 {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 147px;
+    border: 2px solid #FBEBCD;
+    transform: rotate(0.14deg);
+}
+
+.line-4 {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 681px;
+    border: 2px solid #FBEBCD;
+}
+
+/* design page */
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.rectangle-43 {
+    
+
+position: absolute;
+width: 100%;
+height: 832px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #9DE0E1 0%, #144A4A 82.5%, #020F0F 100%);
+
+}
+
+.rectangle-60 {
+    position: absolute;
+    width: 100%;
+    height: 81px;
+    left: 0px;
+    top: 0px;
+    background: #034048;
+}
+
+.rectangle-61 {
+    position: absolute;
+    width: 100%; 
+    height: 100px;
+    left: 0;
+    top: 720px;
+    background-image: url('Rectangle 62.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.nav-item5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.nav-item5.design {
+    color: #4ED139;
+    border: 1px solid #4ED139;
+}
+
+.rectangle-53 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 450px;
+    height: 356px;
+    left: 848px;
+    top: 98px;
+    background: url('https://blog.webhopers.com/wp-content/uploads/2022/05/Web-Design-Company-in-Salem.jpg') no-repeat center/cover;
+    border: 3px solid #928B63;
+    border-radius: 0px 20px 0px 0px;
+    filter: grayscale(60%);
+}
+
+.rectangle-55 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 206px;
+    height: 309px;
+    left: 627px;
+    top: 98px;
+    background: url('https://images.squarespace-cdn.com/content/v1/632478ded8165d28904107ca/1700844420401-TQIJC1YL5CWNH3QN8CUQ/IndieSoul-SHOP15.jpg') no-repeat center/cover;
+    border: 3px solid #A3A995;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.rectangle-56 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 206px;
+    height: 319px;
+    left: 627px;
+    top: 417px;
+    background: url('https://img.freepik.com/free-photo/halftone-monochrome-collage_23-2151005096.jpg?size=338&ext=jpg&ga=GA1.1.1224184972.1711670400&semt=sph') no-repeat center/cover;
+    border: 3px solid #A4AB91;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.rectangle-54 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 450px;
+    height: 269px;
+    left: 848px;
+    top: 467px;
+    background: #5B7384;
+    border: 3px solid #AD915F;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.rectangle-57 {
+
+box-sizing: border-box;
+
+position: absolute;
+width: 425px;
+height: 114px;
+left: 129px;
+top: 329px;
+
+background: #04373A;
+border: 2px solid rgba(255, 255, 255, 0.5);
+box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+
+
+.ellipse-5 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    left: 214px;
+    top: 136px;
+    background: url('https://static.vecteezy.com/system/resources/previews/008/610/412/non_2x/home-office-concept-woman-working-from-home-student-or-freelancer-illustration-vector.jpg') no-repeat center/cover;
+    border: 3px solid #7F866F;
+    border-radius: 50%;
+}
+
+.my-design-work {
+    position: absolute;
+    width: 322px;
+    height: 48px;
+    left: 179px;
+    top: 460px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* */
+.Explanation{
+position: absolute;
+width: 362px;
+height: 119px;
+left: 159px;
+top: 522px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.posters {
+    position: absolute;
+    width: 161px;
+    height: 47px;
+    left: 639px;
+    top: 309px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.art-works {
+    position: absolute;
+    width: 303px;
+    height: 42px;
+    left: 578px;
+    top: 556px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #FF4D00;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.others {
+    position: absolute;
+    width: 191px;
+    height: 66px;
+    left: 979px;
+    top: 551px;
+    font-family: 'Alfa Slab One', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rectangle-58 {
+    position: absolute;
+    width: 38px;
+    height: 32px;
+    left: 755px;
+    top: 234px;
+    background: #EFECE2;
+}
+
+.rectangle-59 {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    left: 630px;
+    top: 372px;
+    background: #524734;
+}
+
+.ellipse-6, .ellipse-7, .ellipse-8, .ellipse-9, .ellipse-10 {
+    position: absolute;
+    width: 50px;
+    height: 47px;
+    background: #162E32;
+    border-radius: 50%;
+    top: 759px;
+}
+
+.ellipse-6 {
+    left: 74px;
+    
+}
+
+.ellipse-7 {
+    left: 136px;
+    
+}
+
+.ellipse-8 {
+    left: 198px;
+    
+}
+
+.ellipse-9 {
+    left: 260px;
+   
+}
+
+.ellipse-10 {
+    left: 322px;
+}
+#social-media {
+    position :absolute;
+    text-align: center;
+    margin: 2em 0;
+    left: 1115px;
+    top: 761px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #e0dddd;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #0073b1; 
+}
+
+.social-icon[title="GitHub"]:hover {
+    color: #a7a4a4; 
+}
+
+.social-icon[title="CodePen"]:hover {
+    color: #49468b; 
+}
+
+.social-icon[title="LeetCode"]:hover {
+    color: #ffa116; 
+}
+
+.social-icon[title="HackerRank"]:hover {
+    color: #02a43e; 
 }
